@@ -1,0 +1,84 @@
+.container-fluid {
+    border: thin solid grey;
+    border-radius: 5px;
+}
+
+.justify-content-center {
+    height: 12vh;
+}
+
+/* headings  & dividers */
+
+body {
+    padding: 5vh;
+}
+
+h1 {
+    text-align: center;
+    font-family: serif;
+    font-size: 40px;
+    margin: 30px 30px;
+    color: darkorange;
+}
+
+h2 {
+    text-align: center;
+    font-family: serif;
+    color: darkorange;
+    font-size: 23px;
+    margin: 30px 30px;
+}
+
+h3 {
+    text-align: center;
+    font-family: serif;
+    font-size: 25px;
+    margin: 10px 10px;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid black;
+}
+
+div {
+    font-family: serif;
+}
+
+/* pset specific styling */
+.buildingHeight {
+    fill: white;
+}
+
+.buildingName {
+    text-anchor: end;
+}
+
+img {
+    padding: 10px;
+}
+
+.sketch {
+    width: 350px;
+}
+
+.deardata {
+    width: 500px;
+}
+
+/* table */
+.table {
+    font-family: serif;
+    font-size: 15px;
+    padding: 20px;
+    width: 100%;
+    border:1px -moz-mac-accentdarkestshadow;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+span {
+    text-align: center;
+}

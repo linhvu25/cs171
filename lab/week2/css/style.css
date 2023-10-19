@@ -1,0 +1,34 @@
+nav {
+    font-family: Georgia;
+}
+
+#content {
+    font-size: 15px;
+    font-family: Georgia;
+    padding: 30px 10px;
+    margin: 20px;
+}
+
+.btn {
+    font-size: 15px;
+    font-family: Georgia;
+    background-color: maroon;
+}
+
+.btn:hover {
+    background-color: darkgoldenrod;
+}
+
+a:hover {
+    background-color: darkgoldenrod;
+}
+
+div p {
+    color: -moz-mac-accentdarkshadow;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia;
+    padding: 30px;
+}

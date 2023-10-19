@@ -1,0 +1,59 @@
+/* INTERACTIVE (3) - CUSTOM STYLES */
+
+body {
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	color: #6C6C75;
+	font-size: 48px;
+	font-weight: 100;
+	margin-bottom: 30px;
+}
+
+a.external-link {
+	color: #8A5038;
+	text-decoration: none;
+}
+
+.external-link:hover {
+	text-decoration: underline;
+}
+
+#content {
+	margin: 20px 0;
+	padding: 20px;
+	background-color: #f7f7f7;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+#content:empty {
+	display: none;
+}
+
+#content .generated-content {
+	margin-bottom: 10px;
+	padding: 15px;
+    background-color: #F1E6E6;
+    border-radius: 4px;
+}
+
+#cs171-basics {
+	margin-bottom: 20px;
+}
+
+#cs171-basics:hover {
+	text-decoration: underline;
+}
+
+.img-thumbnail {
+	margin-bottom: 20px;
+	width: 100%;
+	max-width: 500px;
+}
+
+.btn {
+	background-color: #608a53;
+}

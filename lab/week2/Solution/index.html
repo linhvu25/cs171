@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS171 Basics - The Harvard FactBook</title>
+
+    <!-- INTERACTIVE (4) - INCLUDE BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- INTERACTIVE (3) - INCLUDE EXTERNAL CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,700,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- WRAPPER CONTAINER -->
+<div class="container">
+
+    <!-- NAVBAR -->
+    <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="width: 100%">
+            <a class="navbar-brand" href="#">CS171 - Basics</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.cs171.org/2020/index.html">cs171.org</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Resources
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="https://developer.mozilla.org" target="_blank">MDN</a>
+                            <a class="dropdown-item" href="http://www.w3schools.com" target="_blank">w3schools.com</a>
+                            <a class="dropdown-item" href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- CONTENTS -->
+    <div class="row" style="margin-top: 2vh;">
+
+        <!-- left | text-->
+        <div class="col-md-6">
+
+            <div class="row justify-content-center">
+                <div class="align-self-center">
+                    <h1>The Harvard FactBook</h1>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="align-self-center">
+                    <button type="button" id="cs171-basics" class="btn btn-primary btn-lg btn-success">Get a random fact about Harvard University</button>
+                </div>
+            </div>
+
+            <div id="content"></div>
+        </div>
+
+        <!-- right | images -->
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-thumbnail" src="img/Widener-Library.jpg" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-thumbnail" src="img/Memorial-Church.jpg" />
+                    <p><i>image courtesy of: Harvard Public Affairs &amp; Communications</i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+	<!-- INTERACTIVE (4) - INCLUDE BOOTSTRAP JAVASCRIPT -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<!-- INTERACTIVE (2) - INCLUDE EXTERNAL JAVASCRIPT -->
+<script src="js/dom-example.js"></script>
+</body>
+</html>

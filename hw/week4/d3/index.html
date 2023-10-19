@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CS171 - Boilerplate</title>
+
+		<!-- Load CSS libraries -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- GOOGLE FONTS -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,400italic,300italic' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+	<div class="container">
+		<div class="row">
+			<div>
+				<h1>CS 171 HW</h1>
+			</div>
+		</div>
+		<hr>
+		<div>
+			<h2>Task 1: The World's Tallest Buildings</h2>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="row" id="bar-chart">
+				</div>
+				<div class="row">
+					<p id="caption"></p>
+				</div>
+			</div>
+			<div class="col">
+				<div style="text-align: center">
+					<img id="image"/>
+				</div>
+				<table class="table table-striped">
+					<h3 id="name"></h3>
+					<tbody>
+						<tr>
+							<td>Height</td>
+							<td>
+								<p id="height" class="text-start"></p>
+							</td>
+						</tr>
+						<tr>
+							<td>City</td>
+							<td>
+								<p id="city" class="text-start"></p>
+							</td>
+						</tr>
+						<tr>
+							<td>Country</td>
+							<td>
+								<p id="country" class="text-start"></p>
+							</td>
+						</tr>
+						<tr>
+							<td>Floors</td>
+							<td>
+								<p id="floors" class="text-start"></p>
+							</td>
+						</tr>
+						<tr>
+							<td>Completed</td>
+							<td>
+								<p id="completed" class="text-start"></p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<hr>
+		<div>
+			<h2>Task 2: Sketches</h2>
+		</div>
+		<div class="row">
+			<div class="col">
+				<img src="img/sketch1.png" class="sketch"/>
+			</div>
+			<div class="col">
+				<img src="img/sketch2.png" class="sketch"/>
+			</div>
+			<div class="col">
+				<img src="img/sketch3.png" class="sketch"/>
+			</div>
+		</div>
+		<hr>
+		<div>
+			<h2>Extra Credit</h2>
+		</div>
+		<div class="row">
+			<p style="text-align: center">
+				<img src="img/deardata.png" class="deardata"/>
+			</p>
+		</div>
+	</div>
+
+	<!-- embedding JS libraries -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+	<!-- d3 -->
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+
+	<!-- own js files -->
+	<script src="js/main.js"></script>
+	</body>
+</html>

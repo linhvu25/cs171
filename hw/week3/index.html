@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CS171 - HW2</title>
+
+		<!-- Load CSS libraries -->
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+
+		<!-- own CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+	<h1 class="center">CS 171 - Week 3 HW</h1>
+	<div class="container">
+		<div class="row">
+			<hr>
+			<h2>Task 1: PizzaWorld - Insights & Statistics</h2>
+			<div class="col">
+				<h5> Select Area and Order type </h5>
+				<!-- drop down menu for area -->
+				<div class="row justify-content-center">
+					<div class="align-self-center">
+						<div class="user-control">
+							<div class="form-group">
+								<select id="area" class="form-control" onchange="displayChange()">
+									<option value="All">All</option>
+									<option value="Boston">Boston</option>
+									<option value="Cambridge">Cambridge</option>
+									<option value="Somerville">Somerville</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- drop down menu for order type -->
+				<div class="row justify-content-center">
+					<div class="align-self-center">
+						<div class="user-control">
+							<div class="form-group">
+								<select id="order-type" class="form-control" onchange="displayChange()">
+									<option value="All">All</option>
+									<option value="web">Web</option>
+									<option value="phone">Phone</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="col">
+				<h5> Summary Statistics </h5>
+				<div id="summary"></div>
+			</div>
+			<div class="col">
+				<h5 align="center">Number of Deliveries over Time</h5>
+				<div id="chart-area"></div>
+			</div>
+		</div>
+		<hr>
+		<h2>Task 2: Infographic Design Critique</h2>
+		<div class="row">
+			<div class="col">
+				<img src="https://www.cs171.org/Homework_instructions/week-03/hw/cs171-hw2-infographic.png" width="500px">
+			</div>
+			<div class="col">
+				<h5 align="center" >Design critique</h5>
+				<ul>
+					<li>The audience includes those who want to know about the top 10 highest-earning positions at Google.
+						This can be the general public, those who are considering working at Google, those who already work
+						there and want to be promoted, etc.</li>
+					<li>The graphic answers the question: What are the top 10 highest earning positions at Google?</li>
+					<li>The data includes type of position (nominal) and salary range (quantitative)</li>
+					<li>The type of position is colored grey, and the range of salary is colored red and coded as the
+					area of the pie chart (the salary increases as one moves along the pie chart clockwise).</li>
+					<li>The visualization isn't very effective. It's not immediately clear to me how the salary range is encoded,
+					and I ended up referring to the text to compare the values instead of using the pie chart at all. The way
+					the chart is colored is also confusing and I still don't understand the color scheme.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- embedding JS libraries -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+	<!-- d3 -->
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+
+	<!-- data -->
+	<script src="data/delivery-data.js"></script>
+	<script src="data/feedback-data.js"></script>
+
+	<!-- bar chart -->
+	<script src="js/barchart.js"></script>
+
+	<!-- ****** TODO: FILTER DATA, DISPLAY BAR CHART & KEY FIGURES ****** -->
+	<script src="js/main.js"></script>
+	</body>
+</html>

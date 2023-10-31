@@ -4,7 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af15595c-b8c0-4dc3-a140-b3d50ade32de" name="Changes" comment="PRG: lab 8" />
+    <list default="true" id="af15595c-b8c0-4dc3-a140-b3d50ade32de" name="Changes" comment="PRG: lab 8">
+      <change afterPath="$PROJECT_DIR$/hw/submission_LinhVu.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw/week8/hw/implementation/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw/week8/hw/implementation/data/household_characteristics.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw/week8/hw/implementation/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw/week8/hw/implementation/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw/week8/hw/implementation/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw/week8/hw/implementation/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw/week8/hw/implementation/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw/week8/hw/implementation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw/week8/hw/implementation/js/areachart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw/week8/hw/implementation/js/barchart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw/week8/hw/implementation/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/week9/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/week9/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/week9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/week9/.idea/week9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/week9/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/week9/data/airports.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/week9/data/world-110m.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/week9/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/week9/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/week9/js/mapVis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab/week9/js/pieChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/week8/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/week8/data/household_characteristics.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/week8/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/week8/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/week8/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/week8/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/week8/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/week8/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/week8/js/areachart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/week8/js/barchart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/week8/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/week8/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab/week8/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +106,10 @@
       <workItem from="1698001412996" duration="14983000" />
       <workItem from="1698086885381" duration="3100000" />
       <workItem from="1698180589933" duration="7859000" />
+      <workItem from="1698512355144" duration="1714000" />
+      <workItem from="1698606210104" duration="5358000" />
+      <workItem from="1698625996539" duration="16619000" />
+      <workItem from="1698716699599" duration="6876000" />
     </task>
     <task id="LOCAL-00001" summary="make project">
       <option name="closed" value="true" />
@@ -166,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698261703662</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="PRG: lab 8">
+      <option name="closed" value="true" />
+      <created>1698512426489</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1698512426489</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,16 +242,5 @@
     <MESSAGE value="PRG: hw 7 and lab 8" />
     <MESSAGE value="PRG: lab 8" />
     <option name="LAST_COMMIT_MESSAGE" value="PRG: lab 8" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/hw/week7/hw/implementation/js/main.js</url>
-          <line>99</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

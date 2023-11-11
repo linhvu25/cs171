@@ -68,7 +68,8 @@ class MapVis {
 
         vis.countries = vis.svg.selectAll(".country")
             .data(vis.world)
-            .enter().append("path")
+            .enter()
+            .append("path")
             .attr('class', 'country')
             .attr("d", vis.path)
 

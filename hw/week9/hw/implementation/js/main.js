@@ -11,7 +11,15 @@ let myDataTable,
 
 let selectedTimeRange = [];
 let selectedState = '';
+let selectedCategory =  document.getElementById('categorySelector').value;
+let time = 3000;
 
+function categoryChange() {
+    selectedCategory =  document.getElementById('categorySelector').value;
+    myMapVis.wrangleData(); // maybe you need to change this slightly depending on the name of your MapVis instance
+    myBarVisOne.wrangleData();
+    myBarVisTwo.wrangleData();
+}
 
 // load data using promises
 let promises = [
@@ -40,11 +48,11 @@ function initMainPage(dataArray) {
     myDataTable = new DataTable('tableDiv', dataArray[1], dataArray[2]);
 
     // TODO - init map
-    // myMapVis = new MapVis('mapDiv', dataArray[0], ...
+    myMapVis = new MapVis('mapDiv', dataArray[0], dataArray[1], dataArray[2]);
 
     // TODO - init bars
-    // myBarVisOne = new BarVis('...
-    // myBarVisTwo = new BarVis('...
+    myBarVisOne = new BarVis('barDiv', dataArray[1], dataArray[2], true)
+    myBarVisTwo = new BarVis('barTwoDiv', dataArray[1], dataArray[2], false)
 
     // init brush
     myBrushVis = new BrushVis('brushDiv', dataArray[1]);

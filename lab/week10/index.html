@@ -10,8 +10,26 @@
 <body>
 
 <!-- content -->
+<div class="row justify-content-center" style="height: 100%">
+    <div class="col-10">
+        <select id='sortSelector' class="custom-select align-self-center" style="width: 20%" onchange="categoryChange()">
+            <option value="index">Alphabetical</option>
+            <option value="businessTies">Number of business ties</option>
+            <option value="marriages">Number of marriage ties</option>
+            <option value="allRelations">Number of all relation ties</option>
+            <option value="wealth">Wealth</option>
+            <option value="numberPriorates">Number of priorates</option>
+        </select>
+    </div>
+    <div class="col-10">
+        <ul class="legend">
+            <li><span class="marriage"></span>Marriage</li>
+            <li><span class="business"></span>Business</li>
+        </ul>
+    </div>
+</div>
 <div class="row">
-    <div id="matrix" style="height: 71vh; width: 100%;"></div>
+    <div id="matrix" style="height: 80vh; width: 100%;"></div>
 </div>
 
 <!-- Load JS libraries -->

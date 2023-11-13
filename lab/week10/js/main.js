@@ -1,6 +1,6 @@
 /* main JS file */
 let myMatrix;
-
+let transitionTime = 2000;
 let dataMarriages = [
     [0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0],
     [0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0],
@@ -53,4 +53,8 @@ function loadData() {
 
         myMatrix = new Matrix("matrix", dataMarriages, dataBusiness, dataAttributes)
     });
+}
+
+function categoryChange() {
+    myMatrix.selectCategory(document.getElementById('sortSelector').value);
 }

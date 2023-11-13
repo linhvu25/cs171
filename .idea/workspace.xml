@@ -4,38 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af15595c-b8c0-4dc3-a140-b3d50ade32de" name="Changes" comment="PRG: lab 9">
-      <change afterPath="$PROJECT_DIR$/hw/submission_LinhVu/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/submission_LinhVu/data/census_usa.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/submission_LinhVu/data/covid_data_20.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/submission_LinhVu/data/covid_data_22.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/submission_LinhVu/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/submission_LinhVu/js/barVis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/submission_LinhVu/js/brushVis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/submission_LinhVu/js/dataTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/submission_LinhVu/js/helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/submission_LinhVu/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/submission_LinhVu/js/mapVis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/josh.twbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/josh_green_2.csv" afterDir="false" />
+    <list default="true" id="af15595c-b8c0-4dc3-a140-b3d50ade32de" name="Changes" comment="PRG: lab 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/week9/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/week9/data/census_usa.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/week9/data/covid_data_20.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/week9/data/covid_data_22.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/week9/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/week9/js/barVis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/week9/js/brushVis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/week9/js/dataTable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/week9/js/helpers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/week9/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw/week9/js/mapVis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab/week9/js/mapVis.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab/week9/js/mapVis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/week10/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab/week10/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/week10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab/week10/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/week10/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab/week10/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/week10/js/matrix.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab/week10/js/matrix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,6 +88,8 @@
       <workItem from="1698716699599" duration="6989000" />
       <workItem from="1698864221024" duration="26957000" />
       <workItem from="1699285380650" duration="143000" />
+      <workItem from="1699541521387" duration="16022000" />
+      <workItem from="1699816641385" duration="15142000" />
     </task>
     <task id="LOCAL-00001" summary="make project">
       <option name="closed" value="true" />
@@ -223,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698864244657</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="PRG: lab 10">
+      <option name="closed" value="true" />
+      <created>1699726740147</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1699726740147</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +246,7 @@
     <MESSAGE value="PRG: hw 7 and lab 8" />
     <MESSAGE value="PRG: lab 8" />
     <MESSAGE value="PRG: lab 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="PRG: lab 9" />
+    <MESSAGE value="PRG: lab 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="PRG: lab 10" />
   </component>
 </project>

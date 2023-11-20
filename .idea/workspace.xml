@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af15595c-b8c0-4dc3-a140-b3d50ade32de" name="Changes" comment="PRG: lab 11" />
+    <list default="true" id="af15595c-b8c0-4dc3-a140-b3d50ade32de" name="Changes" comment="PRG: lab 11">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/week9/js/pieChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab/week9/js/pieChart.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +90,8 @@
       <workItem from="1699849992911" duration="23000" />
       <workItem from="1699904554136" duration="659000" />
       <workItem from="1700186121038" duration="673000" />
-      <workItem from="1700410106454" duration="10446000" />
+      <workItem from="1700410106454" duration="10491000" />
+      <workItem from="1700457130893" duration="653000" />
     </task>
     <task id="LOCAL-00001" summary="make project">
       <option name="closed" value="true" />
@@ -233,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700425627464</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="PRG: lab 11">
+      <option name="closed" value="true" />
+      <created>1700425708185</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1700425708185</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

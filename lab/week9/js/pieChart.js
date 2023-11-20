@@ -87,6 +87,7 @@ class PieChart {
         let vis = this;
 
         // TODO
+        console.log("display", vis.displayData)
 
         vis.arcs = vis.pieChartGroup.selectAll(".pie-arc")
             .data(vis.pie(vis.displayData))
